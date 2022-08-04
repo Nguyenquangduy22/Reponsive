@@ -1,0 +1,12 @@
+// Đối tượng Grid
+Độ phân giải màn hình càng cao nên sử dụng 1200px
+max 1280px nên chon 1200px
+
+tạo class : 
+-grid:full-with , chiếm hết chiều ngang đối tượng <cha>
+-wide:chiều ngang tối đa 1200px
+
+// Đối tượng Row
+I. Chia ra cac columns, giup cac columns nam theo chieu ngang	>>> display:flex;
+2. Khi tong chieu ngang columns vuot qua kich thuoc Row, cho columns xuong hang	>>> flex-wrap:wrap;
+3. Loai bo khoang thua do gutters tao ra o 2 phia	
